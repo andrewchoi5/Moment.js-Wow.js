@@ -685,26 +685,32 @@
                                     });
                                 });        
 </script>
+
 <script src="vertical-timeline/js/modernizr.js"></script> 
 <script src="vertical-timeline/js/main.js"></script>
 <!-- Vertical TimeLine -->
 <script src="js/wow.min.js"></script>
+
 <script>
 new WOW().init();
 </script>
+
 <script> //for background slideShow!
     // document.getElementsByTagName('head').style.header.backgroundImage= 'url(../img/1.jpg)';
     var start = 2;
     var cnt = start;
     var numImages = 3;
-var myVar = setInterval(changeBac, 10000); //1000ms = 1s;
-function changeBac() {
-  var myUrl = "img/"+ cnt +".jpg";
-  document.getElementById('myHead').style.backgroundImage="url('" + myUrl + "')";
-  ++cnt; cnt == (numImages+1) && (cnt = 1);
-}
-// $('#myHead').fadeTo('slow',3, function(){
-//     $(this).css('backgroundImage', "url('img/2.jpg')");
-// }).fadeTo('slow',5);
+    // var myVar = setInterval(changeBac, 10000); //1000ms = 1s;
+    // function changeBac() {
+    //   var myUrl = "img/"+ cnt +".jpg";
+    //   document.getElementById('myHead').style.backgroundImage="url('" + myUrl + "')";
+    //   ++cnt;
+    //   cnt == (numImages+1) && (cnt = 1);
+    // }
+    
+    // $('#myHead').fadeTo('slow',3, function(){
+    //     $(this).css('backgroundImage', "url('img/2.jpg')");
+    // }).fadeTo('slow',5);
 </script>
+
 </html>
