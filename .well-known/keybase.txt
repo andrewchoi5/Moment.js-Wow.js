@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/achoi
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://andrewchoi.me
+  * I am achoi (https://keybase.io/achoi) on keybase.
+  * I have a public key ASBPndcf73qQMLV2h7qqHnH1okQHN-1_BCWTJwaiFPx0Xwo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01014a737e67f8a9b7fd9ffcb5e3c404ef80bc940880a633bf90a1dc48bada57e9040a",
+            "host": "keybase.io",
+            "kid": "01204f9dd71fef7a9030b57687baaa1e71f5a2440737ed7f0425932706a214fc745f0a",
+            "uid": "30f7221cbda61dddeb6ca18d5c9cbe19",
+            "username": "achoi"
+        },
+        "service": {
+            "hostname": "andrewchoi.me",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.14"
+    },
+    "ctime": 1464289862,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1464289802,
+        "hash": "10a0a8f3b839875d3ad18642d763c8a6e675f4d731980bc927795b214d469cd91c349648d56aa87965df9b0c1769bcaaf5d1ce6653526df15999d3754775a44d",
+        "seqno": 472025
+    },
+    "prev": "1a20af43cd7eff27e76f39540edaa3e1c364f75f0b36f113377b7a01db75c65c",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+g6Rib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgT53XH+96kDC1doe6qh5x9aJEBzftfwQlkycGohT8dF8Kp3BheWxvYWTFAvF7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxNGE3MzdlNjdmOGE5YjdmZDlmZmNiNWUzYzQwNGVmODBiYzk0MDg4MGE2MzNiZjkwYTFkYzQ4YmFkYTU3ZTkwNDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNGY5ZGQ3MWZlZjdhOTAzMGI1NzY4N2JhYWExZTcxZjVhMjQ0MDczN2VkN2YwNDI1OTMyNzA2YTIxNGZjNzQ1ZjBhIiwidWlkIjoiMzBmNzIyMWNiZGE2MWRkZGViNmNhMThkNWM5Y2JlMTkiLCJ1c2VybmFtZSI6ImFjaG9pIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJhbmRyZXdjaG9pLm1lIiwicHJvdG9jb2wiOiJodHRwOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4xNCJ9LCJjdGltZSI6MTQ2NDI4OTg2MiwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDY0Mjg5ODAyLCJoYXNoIjoiMTBhMGE4ZjNiODM5ODc1ZDNhZDE4NjQyZDc2M2M4YTZlNjc1ZjRkNzMxOTgwYmM5Mjc3OTViMjE0ZDQ2OWNkOTFjMzQ5NjQ4ZDU2YWE4Nzk2NWRmOWIwYzE3NjliY2FhZjVkMWNlNjY1MzUyNmRmMTU5OTlkMzc1NDc3NWE0NGQiLCJzZXFubyI6NDcyMDI1fSwicHJldiI6IjFhMjBhZjQzY2Q3ZWZmMjdlNzZmMzk1NDBlZGFhM2UxYzM2NGY3NWYwYjM2ZjExMzM3N2I3YTAxZGI3NWM2NWMiLCJzZXFubyI6OSwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEBbt1sYAVpo/h9yUVn/+Zxqvez0Y1fgRhH9HgxbT079neJGofig/Lf402VyJpPp7bYE970X4AVvx8jIL2b6yIsAqHNpZ190eXBlIKN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/achoi
+
+==================================================================
