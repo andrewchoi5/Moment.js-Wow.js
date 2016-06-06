@@ -1,4 +1,4 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -9,7 +9,7 @@
     <title>Andrew Choi || IBM || uWaterloo</title>
     <link rel="icon" href="img/oracle.ico" sizes="32x32">
 
-    <link rel="stylesheet" href="vertical-timeline/css/style.css">
+    <!-- <link rel="stylesheet" href="vertical-timeline/css/style.css"> -->
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
@@ -23,9 +23,28 @@
     <link rel="stylesheet" type="text/css" href="simpletextrotator.css"/> 
     <!-- for textRotator.Necessary -->
     <link rel="stylesheet" href="WOW-master/css/animate.css">
+    <link rel="stylesheet" href="css/preloader.css" />
+
+
 </head>
+
+
+
 <body id="page-top">
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+
+    <div id="preloader" >
+     <!-- <div id="preloader" style="display:none"> -->
+        <div id="status" style="font-family: Open Sans;" >
+            <div class="fa fa-terminal wow tada infinite"></div>
+            <div class="type"></div>
+
+
+        </div>
+    </div>
+    
+   
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top" style = "display: none">
         <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -35,19 +54,27 @@
                     <span class="icon-bar"></span>
                 </button>                
                 <a class="navbar-brand page-scroll" href="#page-top"><i class="fa fa-space-shuttle fa-1x"></i>
-                    &nbsp;Andrew <script>new Date().getFullYear()>2010&&document.write(new Date().getFullYear());</script></a>
-                </div>
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a class="page-scroll" href="#about">Introduction</a></li>
-                        <li><a class="page-scroll" href="#awards">Experience</a> </li>
-                        <li> <a class="page-scroll" href="#more">Honors & Awards</a></li>
-                        <li><a class="page-scroll" href="#reach">Reach Me!</a></li>
-                    </ul>
-                </div>
+                    &nbsp;Andrew <script>new Date().getFullYear()>2010&&document.write(new Date().getFullYear());</script>
+                </a>
             </div>
-        </nav>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a class="page-scroll" href="#about">Introduction</a></li>
+                    <li><a class="page-scroll" href="#awards">Experience</a> </li>
+                    <li> <a class="page-scroll" href="#more">Honors & Awards</a></li>
+                    <li><a class="page-scroll" href="#reach">Reach Me!</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
         <header id='myHead'>
+
+
+
             <div class="header-content">
              <div class="header-content-inner">
                  <a class="inheritColor" href="mailto:a24choi@uwaterloo.ca?subject=[andrew-choi.me]&body=Hello Andrew, %0D%0A %0D%0A %0D%0A• Name: %0D%0A%0D%0A• Topic: %0D%0A%0D%0A• Your Comments/Concerns:"><i class="fa fa-envelope fa-2x fa-spin"></a></i>&nbsp;&nbsp;&nbsp;
@@ -662,7 +689,7 @@
                                                 <div class='wow rotateInUpRight'>
                                                     <div class="col-lg-12 text-center">
                                                         <i data-wow-delay=".1s"></i>
-                                                        <h5><a href="http://andrewchoi.me" target="_blank">AndrewChoi.me</a>
+                                                        <h5><a href="/" target="_blank">AndrewChoi.me</a>
                                                             &copy; 2014
                                                             <script>new Date().getFullYear()>2010&&document.write("- "+new Date().getFullYear());</script>
                                                         </h5>
@@ -679,6 +706,24 @@
                                 <script src="js/jquery.fittext.js"></script>
                                 <script src="js/wow.min.js"></script>
                                 <script src="js/creative.js"></script>
+                                <script src="js/ernestmain.js"></script>
+                                <script src="js/typed.js"></script>
+                                <script>
+                                    $(function() {
+                                        $(".type").typed({
+                                            // strings: ["SELECT * FROM planet.earth WHERE name = 'Andrew Choi' LIMIT 1;<br>"],
+                                            strings: ["Internship: BlackBerry + IBM + IBM + ? <br> BASc in Computer Engineering, University of Waterloo"],
+                                            typeSpeed: -10,
+                                            startDelay: 1000,
+                                            // color: blue
+                                        });
+                                    });
+                                    setTimeout(function(){
+                                        document.getElementById('mainNav').style.display = "";
+                                    }, 6400);
+
+                                </script>
+                                
                                 <script type="text/javascript" src="jquery.simple-text-rotator.js"></script>
                                 <script>
                                 $(document).ready(function(){
@@ -703,33 +748,34 @@
                                         speed: 2000
                                     });
                                 });        
-</script>
+                                </script>
 
-<script src="vertical-timeline/js/modernizr.js"></script> 
-<script src="vertical-timeline/js/main.js"></script>
-<!-- Vertical TimeLine -->
-<script src="js/wow.min.js"></script>
+                                <!-- <script src="vertical-timeline/js/modernizr.js"></script> 
+                                 <script src="vertical-timeline/js/main.js"></script>
+                                Vertical TimeLine -->
+                                <script src="js/wow.min.js"></script>
+                                <script>
+                                    new WOW().init();
+                                </script>
 
-<script>
-new WOW().init();
-</script>
+                                <script> //for background slideShow!
+                                    // document.getElementsByTagName('head').style.header.backgroundImage= 'url(../img/1.jpg)';
+                                    var start = 2;
+                                    var cnt = start;
+                                    var numImages = 3;
+                                    // var myVar = setInterval(changeBac, 10000); //1000ms = 1s;
+                                    // function changeBac() {
+                                    //   var myUrl = "img/"+ cnt +".jpg";
+                                    //   document.getElementById('myHead').style.backgroundImage="url('" + myUrl + "')";
+                                    //   ++cnt;
+                                    //   cnt == (numImages+1) && (cnt = 1);
+                                    // }
 
-<script> //for background slideShow!
-    // document.getElementsByTagName('head').style.header.backgroundImage= 'url(../img/1.jpg)';
-    var start = 2;
-    var cnt = start;
-    var numImages = 3;
-    // var myVar = setInterval(changeBac, 10000); //1000ms = 1s;
-    // function changeBac() {
-    //   var myUrl = "img/"+ cnt +".jpg";
-    //   document.getElementById('myHead').style.backgroundImage="url('" + myUrl + "')";
-    //   ++cnt;
-    //   cnt == (numImages+1) && (cnt = 1);
-    // }
+                                    // $('#myHead').fadeTo('slow',3, function(){
+                                    //     $(this).css('backgroundImage', "url('img/2.jpg')");
+                                    // }).fadeTo('slow',5);
+                                </script>
 
-    // $('#myHead').fadeTo('slow',3, function(){
-    //     $(this).css('backgroundImage', "url('img/2.jpg')");
-    // }).fadeTo('slow',5);
-</script>
+
 
 </html>
