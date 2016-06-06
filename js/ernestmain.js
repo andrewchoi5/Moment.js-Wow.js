@@ -1,37 +1,24 @@
-/*
-	Astral by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 (function($) {
-
 	var settings = {
-
 		// Speed to resize panel.
 			resizeSpeed: 600,
-
 		// Speed to fade in/out.
 			fadeSpeed: 300,
-
 		// Size factor.
 			sizeFactor: 11.5,
-
 		// Minimum point size.
 			sizeMin: 15,
-
 		// Maximum point size.
 			sizeMax: 20
-
 	};
 
 	var $window = $(window);
 
 	$window.on('load', function() {
-    $('#status').delay(5000).fadeOut('slow'); // will first fade out the loading animation
-	$('#preloader').delay(6000).fadeOut('slow');
+    $('#status').delay(11000).fadeOut('slow'); // will first fade out the loading animation
+	$('#preloader').delay(12000).fadeOut('slow');
     // will fade out the white DIV that covers the website.
-	$('body').delay(1000).css({'overflow':'visible'});
+	$('body').delay(7000).css({'overflow':'visible'});
 		skel
 			.breakpoints({
 				desktop: '(min-width: 737px)',
@@ -180,11 +167,8 @@
 
 							if (id in panels)
 								panels[id]._activate();
-
 						}
-
 					});
-
 				// Window.
 					$window
 						.resize(function() {
@@ -244,5 +228,4 @@
 	});
 
 })(jQuery);
-
 console.log("HI")
