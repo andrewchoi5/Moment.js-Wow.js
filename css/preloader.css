@@ -11,15 +11,16 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #000000; /* preloader background color */
+    background-color: #FFFFFF; /* preloader background color */
     z-index: 99; /* makes sure it stays on top */
 }
 
 #status {
     font-family: 'Ubuntu Mono';
-    color: #00ff00;
+    color: #4785f4;
+    /*color: #2491f9;*/
     text-align: center;
-    margin-top: 50vh;
+    margin-top: 38vh;
 }
 
 .type {
