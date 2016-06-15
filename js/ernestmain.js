@@ -15,10 +15,10 @@
 	var $window = $(window);
 
 	$window.on('load', function() {
-    $('#status').delay(13000).fadeOut('slow'); // will first fade out the loading animation
-	$('#preloader').delay(14000).fadeOut('slow');
+    $('#status').delay(7600).fadeOut('slow'); // will first fade out the loading animation
+	$('#preloader').delay(8600).fadeOut('slow');
     // will fade out the white DIV that covers the website.
-	$('body').delay(9000).css({'overflow':'visible'});
+	$('body').delay(3600).css({'overflow':'visible'});
 		skel
 			.breakpoints({
 				desktop: '(min-width: 737px)',
