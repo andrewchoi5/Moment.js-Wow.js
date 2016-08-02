@@ -8,7 +8,6 @@
     <meta name="author" content="">
     <title>Andrew Choi || IBM || uWaterloo</title>
     <link rel="icon" href="img/oracle.ico" sizes="32x32">
-    <!-- <link rel="stylesheet" href="vertical-timeline/css/style.css"> -->
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
@@ -23,34 +22,6 @@
     <!-- for textRotator.Necessary -->
     <link rel="stylesheet" href="WOW-master/css/animate.css">
     <link rel="stylesheet" href="css/preloader.css" />
-    <script type="text/javascript" src="//platform.linkedin.com/in.js">
-      api_key:   75gb4gnvoafbdo
-      onLoad:    OnLinkedInFrameworkLoad
-      authorize: true
-      scope: r_basicprofile r_emailaddress w_share rw_company_admin
-
-    </script>
-    <script>
-      function OnLinkedInFrameworkLoad() {
-        IN.Event.on(IN, "auth", OnLinkedInAuth);
-      }
-      function OnLinkedInAuth() {
-        IN.API.Profile("me").fields("firstName", "lastName", "industry", "location:(name)", "picture-url", "headline", "summary", "num-connections", "public-profile-url", "distance", "positions", "email-address", "educations", "date-of-birth").result(ShowProfileData);
-      }
-      function ShowProfileData(profiles) {
-        var member = profiles.values[0];
-        // var id = member.id;
-        var id = member.emailAddress;
-        var id = member.summary;
-        var id = member.positions.values[0].summary;
-        console.log(profiles);
-        var firstName = member.firstName;
-        var lastName = member.lastName;
-        var photo = member.pictureUrl;
-        var headline = member.headline;
-        document.getElementById("showProfile").innerHTML = headline + "<br>"+ id + "<br>"+ firstName +"<br>"+ lastName + "<br>" + photo;
-     }
-  </script>
 </head>
 <body id="page-top">
 
@@ -777,22 +748,37 @@
                                 <script>
                                     new WOW().init();
                                 </script>
-
                                 <script> //for background slideShow!
                                     // document.getElementsByTagName('head').style.header.backgroundImage= 'url(../img/1.jpg)';
                                     var start = 2;
                                     var cnt = start;
                                     var numImages = 3;
-                                    // var myVar = setInterval(changeBac, 10000); //1000ms = 1s;
-                                    // function changeBac() {
-                                    //   var myUrl = "img/"+ cnt +".jpg";
-                                    //   document.getElementById('myHead').style.backgroundImage="url('" + myUrl + "')";
-                                    //   ++cnt;
-                                    //   cnt == (numImages+1) && (cnt = 1);
-                                    // }
-
-                                    // $('#myHead').fadeTo('slow',3, function(){
-                                    //     $(this).css('backgroundImage', "url('img/2.jpg')");
-                                    // }).fadeTo('slow',5);
                                 </script>
+                                <script type="text/javascript" src="//platform.linkedin.com/in.js">
+                                  api_key:   75gb4gnvoafbdo
+                                  onLoad:    OnLinkedInFrameworkLoad
+                                  authorize: true
+                                  scope: r_basicprofile r_emailaddress w_share rw_company_admin
+                                </script>
+                                <script>
+                                  function OnLinkedInFrameworkLoad() {
+                                    IN.Event.on(IN, "auth", OnLinkedInAuth);
+                                  }
+                                  function OnLinkedInAuth() {
+                                    IN.API.Profile("me").fields("firstName", "lastName", "industry", "location:(name)", "picture-url", "headline", "summary", "num-connections", "public-profile-url", "distance", "positions", "email-address", "educations", "date-of-birth").result(ShowProfileData);
+                                  }
+                                  function ShowProfileData(profiles) {
+                                    var member = profiles.values[0];
+                                    // var id = member.id;
+                                    var id = member.emailAddress;
+                                    var id = member.summary;
+                                    var id = member.positions.values[0].summary;
+                                    console.log(profiles);
+                                    var firstName = member.firstName;
+                                    var lastName = member.lastName;
+                                    var photo = member.pictureUrl;
+                                    var headline = member.headline;
+                                    document.getElementById("showProfile").innerHTML = headline + "<br>"+ id + "<br>"+ firstName +"<br>"+ lastName + "<br>" + photo;
+                                 }
+                              </script>
 </html>
