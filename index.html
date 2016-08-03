@@ -272,7 +272,7 @@
                                 <h4><strong>Employer Evaluation</strong>: N/A as co-op term still ongoing.  </h4>
 
 
-                                <p id="showProfile"></p>
+                                <!-- <p id="showProfile"></p> -->
 
 
                                 <h4>
@@ -786,12 +786,11 @@
                                     var id = member.emailAddress;
                                     var id = member.summary;
                                     var id = member.positions.values[0].summary;
-                                    console.log(profiles);
                                     var firstName = member.firstName;
                                     var lastName = member.lastName;
                                     var photo = member.pictureUrl;
                                     var headline = member.headline;
-                                    document.getElementById("showProfile").innerHTML = headline + "<br>"+ id + "<br>"+ firstName +"<br>"+ lastName + "<br>" + photo;
+                                    document.getElementById("showProfile").innerHTML = headline + "<br>"+ id + "<br>"+ firstName +"<br>"+ lastName;
                                  }
                               </script>
 </html>
