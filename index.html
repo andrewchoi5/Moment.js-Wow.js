@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Andrew Choi || IBM || uWaterloo</title>
+    <title>Andrew Choi | IBM | uWaterloo</title>
     <link rel="icon" href="img/oracle.ico" sizes="32x32">
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
@@ -43,9 +43,9 @@
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a class="page-scroll" href="#about">Introduction</a></li>
-                    <li><a class="page-scroll" href="#awards">Experience</a> </li>
-                    <li> <a class="page-scroll" href="#more">Honors & Awards</a></li>
+                    <li><a class="page-scroll" href="#introduction">Introduction</a></li>
+                    <li><a class="page-scroll" href="#experience">Experience</a> </li>
+                    <li> <a class="page-scroll" href="#honors">Honors & Awards</a></li>
                     <li><a class="page-scroll" href="#reach">Reach Me</a></li>
                 </ul>
             </div>
@@ -82,8 +82,8 @@
              </div>
          </div>
      </header>
-     <section class="bg-primary" id="about">
-        <div class="container">
+     <section class="bg-primary" >
+        <div class="container" id="introduction">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                   <div class="wow bounceInUp">
@@ -253,14 +253,11 @@
                     </div>
                 </div>
             </section>
-            <section id="awards">
-                <div class="container">
+            <section >
+                <div class="container" id="experience">
                     <div class="row">
                         <div class="col-lg-12 text-center">
                             <h2 class="section-heading">Experience</h2>
-
-
-
                             <div class='wow bounceInLeft'>
                                 <hr class="primary">
                                 <h3><a id="Awards" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a> </h3>
@@ -387,14 +384,14 @@
 </div>
 
 </section>
-<section class="no-padding" id="more">
-    <div class="container-fluid">
-        <div class="row no-gutter">
+<section class="no-padding" >
+    <div class="container-fluid" id="honors" >
+        <div class="row no-gutter" >
 
-            <div class="col-lg-4 col-sm-6">
-                <a href="prov.png" class="portfolio-box" target="_blank">
-                    <img src="img/portfolio/1.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
+            <div class="col-lg-4 col-sm-6" >
+                <a href="prov.png" class="portfolio-box" target="_blank" >
+                    <img src="img/portfolio/1.jpg" class="img-responsive" alt="" >
+                    <div class="portfolio-box-caption" >
                         <div class="portfolio-box-caption-content">
                             <div class="project-category text-faded">
                                 Composition
@@ -406,6 +403,7 @@
                     </div>
                 </a>
             </div>
+
             <div class="col-lg-4 col-sm-6">
                 <a href="highschool" target="_blank" class="portfolio-box">
                     <img src="img/portfolio/2.jpg" class="img-responsive" alt="">
@@ -421,6 +419,7 @@
                     </div>
                 </a>
             </div>
+
             <div class="col-lg-4 col-sm-6">
                 <a href="ap" target="_blank" class="portfolio-box">
                     <img src="img/portfolio/3.jpg" class="img-responsive" alt="">
@@ -437,16 +436,14 @@
                 </a>
             </div>
 
-            <div class="col-lg-4 col-sm-6">
+            <div class="col-lg-4 col-sm-6"  style="display: none" id="emptyPortfolioBox">
                 <a target="_blank" class="portfolio-box">
                     <img class="img-responsive" alt="">
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
                             <div class="project-category text-faded">
-
                             </div>
                             <div class="project-name">
-
                             </div>
                         </div>
                     </div>
@@ -468,6 +465,7 @@
                     </div>
                 </a>
             </div>
+
             <div class="col-lg-4 col-sm-6">
                 <a href='2a2.png' target="_blank" class="portfolio-box">
                     <img src="img/portfolio/5.jpg" class="img-responsive" alt="">
@@ -665,8 +663,8 @@
                                     </div>
                                 </div>
                             </aside>
-                            <section id="reach">
-                                <div class="container">
+                            <section >
+                                <div class="container" id="reach">
                                     <div class='wow slideInLeft text-center' ><h3>
                                         <a id="Awards" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link">
                                         </span></a>North Shore Hospital Auxiliary - Lynn Valley Senior Care Centre </h3>
@@ -792,5 +790,14 @@
                                     var headline = member.headline;
                                     // document.getElementById("showProfile").innerHTML = headline + "<br>"+ id + "<br>"+ firstName +"<br>"+ lastName;
                                  }
+                              </script>
+                              <script>
+                              var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+                              var isSafari = /Safari/.test(navigator.userAgent) && /Apple Computer/.test(navigator.vendor);
+                              // var isFirefox = /Firefox/.test(navigator.userAgent) && /Apple Computer/.test(navigator.vendor);
+
+                              if (!isSafari){
+                                document.getElementById('emptyPortfolioBox').style.display = "";
+                              }
                               </script>
 </html>
