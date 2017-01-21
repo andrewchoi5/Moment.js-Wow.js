@@ -1,830 +1,207 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<!doctype html>
+<html>
+  <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Andrew Choi | uWaterloo</title>
-    <link rel="icon" href="img/oracle.ico" sizes="32x32">
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
-    <link rel="stylesheet" href="css/creative.css" type="text/css">
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.css" type="text/css">
-    <link rel="stylesheet" href="font-awesome-4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="simpletextrotator.css"/>
-    <link rel="stylesheet" href="WOW-master/css/animate.css">
-    <!-- <link rel="stylesheet" href="css/preloader.css"  /> -->
-</head>
-<body id="page-top">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Minimal by Steve Smith</title>
 
-    <div id="preloader" >
-     <!-- <div id="preloader" style="display:none"> -->
-        <div id="status" style="font-family: Open Sans;" >
-            <!-- <div class="fa fa-terminal wow tada infinite"></div> -->
-            <div class="type"></div>
-        </div>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Minimal</h1>
+        <p>A Theme for GitHub Pages</p>
+        <p class="view"><a href="http://github.com/orderedlist/minimal">View the Project on GitHub <small>orderedlist/minimal</small></a></p>
+        <ul>
+          <li><a href="https://github.com/orderedlist/minimal/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/orderedlist/minimal/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="http://github.com/orderedlist/minimal">Fork On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>GitHub Flavored Markdown</h1>
+
+        <p><em>View the <a href="http://github.github.com/github-flavored-markdown/sample_content.html">source of this content</a>.</em></p>
+
+        <p>Let's get the whole "linebreak" thing out of the way. The next paragraph contains two phrases separated by a single newline character:</p>
+
+        <p>Roses are red<br>
+        Violets are blue</p>
+
+        <p>The next paragraph has the same phrases, but now they are separated by two spaces and a newline character:</p>
+
+        <p>Roses are red<br><br>
+        Violets are blue</p>
+
+        <p>Oh, and one thing I cannot stand is the mangling of words with multiple underscores in them like perform_complicated_task or do_this_and_do_that_and_another_thing.</p>
+
+        <h2>A bit of the GitHub spice</h2>
+
+        <p>In addition to the changes in the previous section, certain references are auto-linked:</p>
+
+        <ul>
+          <li>SHA: be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2</li>
+          <li>User@SHA ref: <a href="https://github.com/mojombo/product/commit/be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2" class="commit-link">mojombo@<tt>be6a8cc</tt></a></li>
+          <li>User/Project@SHA: <a href="https://github.com/mojombo/god/commit/be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2" class="commit-link">mojombo/god@<tt>be6a8cc</tt></a></li>
+          <li>#Num: <a href="https://github.com/github/product/issues/1" class="issue-link" title="Baseline: What is up in the air right now?">#1</a></li>
+          <li>User/#Num: mojombo#1</li>
+          <li>User/Project#Num: <a href="https://github.com/mojombo/god/issues/1" class="issue-link" title="The server is not available (or you do not have permissions to access it)">mojombo/god#1</a></li>
+        </ul>
+
+        <p>These are dangerous goodies though, and we need to make sure email addresses don't get mangled:</p>
+
+        <p>My email addy is <a href="mailto:tom@github.com">tom@github.com</a>.</p>
+
+        <h2>Math is hard, let's go shopping</h2>
+
+        <p>In first grade I learned that 5 &gt; 3 and 2 &lt; 7. Maybe some arrows. 1 -&gt; 2 -&gt; 3. 9 &lt;- 8 &lt;- 7.</p>
+
+        <p>Triangles man! a^2 + b^2 = c^2</p>
+
+        <h2>We all like making lists</h2>
+
+        <p>The above header should be an H2 tag. Now, for a list of fruits:</p>
+
+        <ul>
+          <li>Red Apples</li>
+          <li>Purple Grapes</li>
+          <li>Green Kiwifruits</li>
+        </ul>
+
+        <p>Let's get crazy:</p>
+
+        <ol>
+          <li>
+            <p>This is a list item with two paragraphs. Lorem ipsum dolor<br>
+            sit amet, consectetuer adipiscing elit. Aliquam hendrerit<br>
+            mi posuere lectus.</p>
+
+            <p>Vestibulum enim wisi, viverra nec, fringilla in, laoreet<br>
+            vitae, risus. Donec sit amet nisl. Aliquam semper ipsum<br>
+            sit amet velit.</p>
+          </li>
+          <li><p>Suspendisse id sem consectetuer libero luctus adipiscing.</p></li>
+        </ol>
+
+        <p>What about some code <strong>in</strong> a list? That's insane, right?</p>
+
+        <ol>
+          <li>
+            <p>In Ruby you can map like this:</p>
+
+            <pre><code>['a', 'b'].map { |x| x.uppercase }</code></pre>
+          </li>
+          <li>
+            <p>In Rails, you can do a shortcut:</p>
+
+            <pre><code>['a', 'b'].map(&amp;:uppercase)</code></pre>
+          </li>
+        </ol>
+
+        <p>Some people seem to like definition lists</p>
+
+        <dl>
+          <dt>Lower cost</dt>
+          <dd>The new version of this product costs significantly less than the previous one!</dd>
+          <dt>Easier to use</dt>
+          <dd>We've changed the product so that it's much easier to use!</dd>
+        </dl>
+
+        <h2>I am a robot</h2>
+
+        <p>Maybe you want to print <code>robot</code> to the console 1000 times. Why not?</p>
+
+        <pre><code>def robot_invasion
+  puts("robot " * 1000)
+end
+</code></pre>
+
+        <p>You see, that was formatted as code because it's been indented by four spaces.</p>
+
+        <p>How about we throw some angle braces and ampersands in there?</p>
+
+        <pre><code>&lt;div class="footer"&gt;
+    &amp;copy; 2004 Foo Corporation
+&lt;/div&gt;
+</code></pre>
+
+        <h2>Set in stone</h2>
+
+        <p>Preformatted blocks are useful for ASCII art:</p>
+
+        <pre>             ,-.
+    ,     ,-.   ,-.
+   / \   (   )-(   )
+   \ |  ,.&gt;-(   )-&lt;
+    \|,' (   )-(   )
+     Y ___`-'   `-'
+     |/__/   `-'
+     |
+     |
+     |    -hrr-
+  ___|_____________
+</pre>
+
+        <h2>Playing the blame game</h2>
+
+        <p>If you need to blame someone, the best way to do so is by quoting them:</p>
+
+        <blockquote>
+        <p>I, at any rate, am convinced that He does not throw dice.</p>
+        </blockquote>
+
+        <p>Or perhaps someone a little less eloquent:</p>
+
+        <blockquote>
+        <p>I wish you'd have given me this written question ahead of time so I<br>
+        could plan for it... I'm sure something will pop into my head here in<br>
+        the midst of this press conference, with all the pressure of trying to<br>
+        come up with answer, but it hadn't yet...</p>
+
+        <p>I don't want to sound like<br>
+        I have made no mistakes. I'm confident I have. I just haven't - you<br>
+        just put me under the spot here, and maybe I'm not as quick on my feet<br>
+        as I should be in coming up with one.</p>
+        </blockquote>
+
+        <h2>Table for two</h2>
+
+        <table>
+          <tbody>
+        <tr>
+            <th>ID</th>
+        <th>Name</th>
+        <th>Rank</th>
+          </tr>
+          <tr>
+            <td>1</td>
+        <td>Tom Preston-Werner</td>
+        <td>Awesome</td>
+          </tr>
+          <tr>
+            <td>2</td>
+        <td>Albert Einstein</td>
+        <td>Nearly as awesome</td>
+          </tr>
+        </tbody>
+        </table>
+
+        <h2>Crazy linking action</h2>
+
+        <p>I get 10 times more traffic from <a href="http://google.com/" title="Google">Google</a> than from<br>
+        <a href="http://search.yahoo.com/" title="Yahoo Search">Yahoo</a> or <a href="http://search.msn.com/" title="MSN Search">MSN</a>.</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="http://github.com/orderedlist">Steve Smith</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
     </div>
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top"><i class="fa fa-space-shuttle fa-1x"></i>
-                    &nbsp;Andrew 
-                    <!-- <script>new Date().getFullYear()>2010&&document.write(new Date().getFullYear());</script> -->
-                </a>
-            </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a class="page-scroll" href="#introduction">Introduction</a></li>
-                    <li><a class="page-scroll" href="#experience">Experience</a> </li>
-                    <li> <a class="page-scroll" href="#honors">Honors & Awards</a></li>
-                    <li><a class="page-scroll" href="#reach">Reach Me</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-        <header id='myHead'>
-            <div class="header-content">
-             <div class="header-content-inner">
-                 <a class="inheritColor" href="https://www.linkedin.com/in/a24choi" target="_blank"><i class="fa fa-linkedin fa-2x fa-spin"></i></a>&nbsp;&nbsp;&nbsp;
-                 <a class="inheritColor" href="https://github.com/andrewchoi5" target="_blank"><i class="fa fa-github fa-2x fa-spin"></a></i>&nbsp;&nbsp;&nbsp;
-                 <a class="inheritColor" href="https://www.youtube.com/user/LWForward" target="_blank"><i class="fa fa-youtube fa-2x fa-spin"></a></i>&nbsp;&nbsp;&nbsp;
-                 <a class="inheritColor" href="mailto:andrewchoi5@hotmail.com?subject=[andrewchoi.me]&body=Hello Andrew, %0D%0A %0D%0A %0D%0A• Name: %0D%0A%0D%0A• Topic: %0D%0A%0D%0A• Your Comments/Concerns:"><i class="fa fa-envelope fa-2x fa-spin"></a></i>&nbsp;&nbsp;&nbsp;
-                 <!-- <a class="inheritColor" target="_blank"><i class="fa fa-twitter fa-2x fa-spin"></a></i>&nbsp;&nbsp;&nbsp; -->
-                 <!-- <a class="inheritColor" target="_blank"><i class="fa fa-instagram fa-2x fa-spin"></a></i>&nbsp;&nbsp;&nbsp; -->
-                 <!-- <a class="inheritColor" target="_blank"><i class="fa fa-skype fa-2x fa-spin"></a></i>&nbsp;&nbsp;&nbsp; -->
-                 <!-- <a class="inheritColor" target="_blank"><i class="fa fa-500px fa-2x fa-spin"></a></i>&nbsp;&nbsp;&nbsp; -->
-                 <!-- <a class="inheritColor" target="_blank"><i class="fa fa-facebook fa-2x fa-spin"></a></i>&nbsp;&nbsp;&nbsp; -->
-                 <!-- <a class="inheritColor" target="_blank"><i class="fa fa-google-plus fa-2x fa-spin"></a></i>&nbsp;&nbsp;&nbsp; -->
-                 <br><br>
-                 <div class='wow swing'><h1>AndrewChoi.me </h1></div>
-
-
-                 <hr>
-                 <h2 class="demo2"><span class="rotate">Software Engineer, iOS Developer, Android Developer, Full Stack Developer </span>&nbsp;<i class="fa fa-pencil fa-1x wow tada"></i></h2><br>
-                 <div class='wow flash'><h4>BASc in Computer Engineering  at uWaterloo | IBM & BlackBerry Intern </h4><br></div>
-
-                 <a href="http://digital-innovation-lab.mybluemix.net/andrewchoi" target="_blank" class="btn btn-primary btn-xl page-scroll wow tada">Portfolio</a>
-                 <br><br><br>
-                 <!-- <script type="in/Login"></script> -->
-                 <br>
-
-
-             </div>
-         </div>
-     </header>
-     <section class="bg-primary" >
-        <div class="container" id="introduction">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                  <div class="wow bounceInUp">
-
-
-                    <h2 class="section-heading">Introduction: </h2>
-                    <hr class="light">
-                    <h4 class="text-faded">
-                        An ardent classical piano player.
-                    </h4>
-                    <h4 class="text-faded">
-                        In all co-op work terms, received an employer evaluation of Outstanding Performance, a rating <strong>reserved for only those
-                        few students </strong>who have distinguished themselves by their unique contribution or exceptional performance.
-                    </h4>
-                    <h4 class="text-faded">
-                        Languages: C, C++, C#, Swift, Java, PHP, Python, JavaScript, VHDL, MATLAB, ARM Assembly.
-                        Experienced w/ Git, Bootstrap, D3.js, jQuery, AngularJS, JSON, Node.js, NPM, Bash.
-                        Software: Eclipse, Android SDK, Visual Studio, Altera Quartus II, PGAdmin, MS SQL Studio, Keil µVision.
-                        Hardware: Integrated circuits, transistors, multimeters, FPGA, Altera DE2
-                    </h4>
-
-                 </div>
-                         <h3 class="demo1"><span class="rotate">Computer Engineering, 3A, University of Waterloo<span></h3>
-                         <hr class="light">
-                         <h4 class="text-faded"><b>For 2016/2017:</b><br>Please contact me at: <a href="mailto:andrewchoi5@hotmail.com?subject=[andrewchoi.me]&body=Hello Andrew, %0D%0A %0D%0A %0D%0A• Name: %0D%0A%0D%0A• Topic: %0D%0A%0D%0A• Your Comments/Concerns:" class="inheritColor">andrewchoi5@hotmail.com</a>.</h4>
-                         <br>
-                         <a href="https://www.linkedin.com/in/a24choi" target= "_blank" class="btn btn-default btn-xl wow tada">LinkedIn</a><br><br>
-                         <div class="wow rubberBand">
-                            <div align="center">
-                                <table>
-                                    <thead>
-                                        <tr>
-                                            <th>Course Title</th>
-                                            <th>Course Code</th>
-                                        </tr>
-                                    </thead>
-
-                                    <tbody>
-                                        <tr>
-                                            <td>Electrical and Computer Engineering Practice: Introduction to Professional Engineering &nbsp;&nbsp;&nbsp;&nbsp;</td>
-                                            <td>ECE 100A</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Physics of Electrical Engineering I</td>
-                                            <td>ECE 105</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Linear Circuits</td>
-                                            <td>ECE 140</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Fundamentals of Programming - C#</td>
-                                            <td>ECE 150</td>
-                                        </tr>
-
-
-
-                                        <tr>
-                                            <td>Electrical and Computer Engineering Practice</td>
-                                            <td>ECE 100B</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Discrete Mathematics</td>
-                                            <td>ECE 103</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Physics of Electrical Engineering II</td>
-                                            <td>ECE 106</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Digital Circuits and Systems - VHDL</td>
-                                            <td>ECE 124</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Engineering Design, Embedded Systems - Java</td>
-                                            <td>ECE 155</td>
-                                        </tr>
-
-
-
-                                        <tr>
-                                            <td>Electrical and Computer Engineering Practice</td>
-                                            <td>ECE 200A</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Numerical Methods I - MATLAB</td>
-                                            <td>ECE 204A</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Advanced Calculus I for Electrical and Computer Engineering </td>
-                                            <td>ECE 205</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Digital Computers - ARM Assembly </td>
-                                            <td>ECE 222</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Electronic Circuits I</td>
-                                            <td>ECE 240</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Algorithms and Data Structures - C++</td>
-                                            <td>ECE 250</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Engineering Profession, Ethics, and Law</td>
-                                            <td>ECE 290</td>
-                                        </tr>
-
-
-                                        <tr>
-                                            <td>Electrical and Computer Engineering Practice</td>
-                                            <td>ECE 200B</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Signals and Systems</td>
-                                            <td>ECE 207</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Embedded Microprocessor Systems</td>
-                                            <td>ECE 224</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Electronic Circuits II</td>
-                                            <td>ECE 242</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Operating Systems and Systems Programming</td>
-                                            <td>ECE 254</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Electrical and Computer Engineering Practice</td>
-                                            <td>ECE 300A</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Probability Theory and Random Processes</td>
-                                            <td>ECE 316</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Digital Hardware Systems</td>
-                                            <td>ECE 327</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Compilers</td>
-                                            <td>ECE 351</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Analog Control Systems</td>
-                                            <td>ECE 380</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Calculus I for Engineering</td>
-                                            <td>MATH 117</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Calculus II for Engineering</td>
-                                            <td>MATH 119</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Linear Algebra for Engineering</td>
-                                            <td>MATH 215</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Chemistry for Engineers</td>
-                                            <td>CHE 102</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Introduction to Microeconomics</td>
-                                            <td>ECON 101</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Engineering Workplace Skills I: Developing Reasoned Conclusions</td>
-                                            <td>PD 20</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Engineering Workplace Skills II: Developing Effective Plans</td>
-                                            <td>PD 21</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Professional Development: Intercultural Skills</td>
-                                            <td>PD 8</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div> </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section >
-                <div class="container" id="experience">
-                    <div class="row">
-                        <div class="col-lg-12 text-center">
-                            <h2 class="section-heading">Experience</h2>
-                            <div class='wow bounceInLeft'>
-                                <hr class="primary">
-                                <h3><a id="Awards" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a> </h3>
-                                <a href="http://www.ibm.com/us/en/" target="_blank"><img src="img\intern\ibm_watson.png" class='roundBorder' alt="alter" style="float:;width:330px;height:150px;"></a>
-                            </div>
-                            <div class='wow bounceInRight'><h4><strong><br>Software Engineer | iOS</strong></h4>
-                                <h4><strong>Employer Evaluation</strong>: Outstanding Performance, a rating "reserved for only those few students who have distinguished themselves by their unique contribution or exceptional performance." Message me for proof.</h4>
-                                <h4>
-                                    <a target='_blank'>Built an iOS native application</a> using Apple's X-code development tools and major iOS frameworks in and Swift. Familiarized with Apple's device provisioning and developer portal as well as Instruments and the X-code debugger. Worked with the mobile application development team on innovative iPhone applications using OOP, and database server applications. Served under the GBS Unit (Global Business Services).
-                                </h4>
-                              
-                                 <h4>
-                                   As a full-stack developer, took ownership over developing the Hiring Manager’s Candidate Evaluation iOS app, IBM
-                                   Guest Check-In iOS app, Node.js & Laravel Digital Innovation Lab app, and Watson Family Financial Advisor (Machine
-                                   Learning), and Watson Conversation iOS app interface from inception to execution.
-                                 </h4>
-                                 <h4>
-                                   Environment & Frameworks: AngularJS, BackBoneJS, KnockoutJS, Node.js, MobileFirst, DeveloperWorks, PHP Laravel, as
-                                 well as Watson APIs.
-                                 </h4>
-                                 <h4>
-                                   Achievements: Production of high-importance iOS prototype & PoCs (Proof of Concepts) under very tight time
-                                   constraints. Let to demoing them to multiple IBM clients including Scotiabank and RBC.
-                                 </h4>
-                             </div>
-
-                             </br>
-
-
-                         <div class='wow bounceInLeft'>
-                            <hr class="primary">
-                            <h3><a id="Awards" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a> </h3>
-                            <a href="http://www.ibm.com/us/en/" target="_blank"><img src="img\intern\ibm_watson.png" alt="alter" style="float:;width:330px;height:150px;"></a>
-                            <!-- <img src="img\intern\ibm_watson.png" class='roundBorder' alt="alter" style="float:;width:280px;height:150px;"> -->
-                        </div>
-                        <div class='wow bounceInRight'><h4><strong><br>Software Engineer | Android</strong></h4>
-                            <h4><strong>Employer Evaluation</strong>: Outstanding Performance, a rating “reserved for only those few students who have
-                            distinguished themselves by their unique contribution or exceptional performance.” Message me for proof.</h4>
-                            <h4>
-                              Created a native Android application using Android development tools as well as major Android frameworks in Java. Utilized Android application signing process, Android Debug Bridge, Android Development Tools, and Android Integrated Development Environment, as well as Android Design Guidelines.  Served under the GBS Unit (Global Business Services). <a href=''></a>
-                            </h4>
-                            <h4>
-                            Incorporated various hardware technologies, including the TI SimpleLink™ Bluetooth Smart® / Multi-Standard SensorTag CC2650 STK in order to implement an IoT Device. Utilized the low-power BLE MEMS sensors to implement new PoCs as well as to create real-life use cases.
-                            </h4>
-                        </div>
-                        </br>
-
-
-                <div class='wow bounceInLeft'>
-                 <!-- <hr class="primary"> -->
-                 <h3><a id="Awards" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a> </h3>
-                 <a href="http://us.blackberry.com/home.html" target="_blank"><img src="img\intern\bb.jpg" class='roundBorder' alt="alter" style="float:;width:310px;height:150px;"></a>
-             </div>
-             <div class='wow bounceInRight'><h4><strong><br>Software Engineer </strong></h4>
-                <h4><strong>Employer Evaluation</strong>: Outstanding Performance, a rating “reserved for only those few students who have
-                distinguished themselves by their unique contribution or exceptional performance.” Message me for proof.</h4>
-                <h4>
-                    <a href="http://us.blackberry.com/home.html" target='_blank'>Worked with the Service Governance team</a> as a co-op intern, was responsible for the development of
-                    enhancements and design modifications to existing BB10 applications (HOTS) & revamped websites (BBAR Client
-                    & GreenState) that support the major BlackBerry Service Product offerings, including Enterprise, Messaging, and
-                    Handheld. Utilized CSS, JavaScript, JQuery, Bootstrap, Node.JS, MS SQL, PHP, AJAX, Angular, D3, HighCharts.<a href=''></a>
-                </h4>
-                <h4>
-                 Worked with the BlackBerry Service Measurement team (DR) of program managers and analysts to ensure the
-                 timely delivery of enhancements following a weekly Agile sprint cycle, utilizing JIRA. Worked with various BBM
-                 features, including BBM Meetings, Protected, Stickers, Voice Chat, Cross Platform Capability. Utilized Git, NPM,
-                 Moment.JS, QML, C++, GitLab. Completely revamped an internal BlackBerry webpage that a substantial number
-                 of product managers and staffs use, for a mobile-friendly UI and more simplified look, enabling members to
-                 increase efficiency.
-             </h4>
-
-
-
-         </div> <!-- end of wow bounceInRight -->
-
-
-         <div class="col-lg-12 text-center"><br>
-            <h2 class="section-heading">Accomplishments</h2>
-            <hr class="primary">
-        </div>
-
-    </div>
-</div>
-
-<div class="container">
-    <div class="row">
-      <div class='wow bounceInLeft'>
-        <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box">
-                <i class="fa fa-4x fa-diamond wow bounceIn text-primary"></i>
-                <h3><a href='https://uwaterloo.ca/'>University of Waterloo </a></h3>
-                <h4 class="demo2">Softwares: <span class="rotate">OOP, Sorting Algorithms, Recursion, Polymorphism, Inheritance, Pointers, Memory,Event-Driven,Engineering Design,Maintenance </span> </h4>
-                <h4 class="demo3">Digitals:<span class="rotate">Multi-Levels,Integrated Circuits,Sequential Circuits,VHDL,CMOS</span> </h4>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box">
-                <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                <h3>Football</h3>
-                <h4 class="demo5"><span class="rotate">Lionel Messi,Marco Reus,Toni Kroos,Rakitic,Mario Gotze</span> Supporter</h4>
-                <h4 class="text-muted"> <a href='http://www.espnfc.us/player/45843/lionel-messi'>Midfielder</a>, Competitve Soccer Enthusiast</h4>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box">
-                <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s"></i>
-                <h3>Piano</h3>
-                <h4 class="text-muted">Rachmaninoff Piano Concerto Soloist, Romantic Classical Music <a href="https://www.youtube.com/watch?v=PjeKA_ttPMU&index=40&list=FLg0WK3TXQ1YYbskfyZyp07w" target="_blank">Enthusiast</a>.</h4>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box">
-                <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                <h3>Volunteer</h3>
-                <h4 class="text-muted">Giver, <a href='http://www.lynnvalleycare.com/location/'>Health Care Cadet</a>, Volunteer.</h4>
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
-</div>
-
-</section>
-<section class="no-padding" >
-    <div class="container-fluid" id="honors" >
-        <div class="row no-gutter" >
-
-            <div class="col-lg-4 col-sm-6" >
-                <a href="prov.png" class="portfolio-box" target="_blank" >
-                    <img src="img/portfolio/1.jpg" class="img-responsive" alt="" >
-                    <div class="portfolio-box-caption" >
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Composition
-                            </div>
-                            <div class="project-name">
-                                Proven Writer - English
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="col-lg-4 col-sm-6">
-                <a href="highschool" target="_blank" class="portfolio-box">
-                    <img src="img/portfolio/2.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Scholastic Achievements
-                            </div>
-                            <div class="project-name">
-                                Top GPA
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="col-lg-4 col-sm-6">
-                <a href="ap" target="_blank" class="portfolio-box">
-                    <img src="img/portfolio/3.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                College Board
-                            </div>
-                            <div class="project-name">
-                                AP Examinations: Seven Scores
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="col-lg-4 col-sm-6"  style="display: none" id="emptyPortfolioBox">
-                <a target="_blank" class="portfolio-box">
-                    <img class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                            </div>
-                            <div class="project-name">
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="col-lg-4 col-sm-6">
-                <a href="2a1.png" target="_blank" class="portfolio-box">
-                    <img src="img/portfolio/4.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                University of Waterloo Electrical and Computer Engineering
-                            </div>
-                            <div class="project-name">
-                                2A Timetable Week I
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="col-lg-4 col-sm-6">
-                <a href='2a2.png' target="_blank" class="portfolio-box">
-                    <img src="img/portfolio/5.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                University of Waterloo Electrical and Computer Engineering
-                            </div>
-                            <div class="project-name">
-                                2A Timetable Week II
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="col-lg-4 col-sm-6">
-                <a target="_blank" class="portfolio-box">
-                    <img src="img/portfolio/6.jpg" class="img-responsive" alt="">
-                    <div class="portfolio-box-caption">
-                        <div class="portfolio-box-caption-content">
-                            <div class="project-category text-faded">
-                                Upcoming...
-                            </div>
-                            <div class="project-name">
-                                Coming Soon...
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-
-
-        </div>
-    </div>
-</section>
-
-<aside class="bg-dark">
-    <div class="container text-center">
-        <div class="call-to-action">
-            <a href="https://github.com/andrewchoi5" target="_blank" class="btn btn-default btn-xl wow tada">GitHub</a></br></br>
-            <h3><div class='wow slideInLeft '>
-                <a id="Awards" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>
-                Arthur F. Church Scholarship</h3></div>
-                <div class='wow bounceInRight'>
-                    <h4>
-                        <a href="https://ugradcalendar.uwaterloo.ca/page/Entrance-Scholarships-and-Awards-for-Engineering">Waterloo Arthur F. Church Major Entrance Scholarship</a>.
-                        Highest scholarship offered by <a href='https://uwaterloo.ca/'>University of Waterloo </a> to 1 student in the Computer Engineering class of 2019.
-                        Presented to a student with exemplary extracurricular activities & exceptional academic standing (99% average).
-                    </h4>
-                    <h4>
-                        - Two scholarships, valued at $10,000 each, are awarded annually to outstanding students entering first year in the Faculty of Engineering: one to a student in Mechatronics Engineering and one to a student in Computer Engineering or Systems Design Engineering. Selection is made on the basis of academic excellence and extracurricular achievements as assessed through the Admission Information Form. This fund is made possible by a donation from Arthur F. Church to encourage exceptional students to attend Waterloo and to assist them in their scholarly pursuits.
-                    </h4></div> <!-- bounceInRight -->
-
-                    <div class='wow slideInLeft'><h3><a id="Awards" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>National AP Scholar with Distinction</h3></div>
-                    <div class='wow bounceInRight'><h4>
-                        <a href="https://apscore.collegeboard.org/scores/ap-awards/ap-scholar-awards">Canada National AP Scholar & AP Scholar with Distinction Award</a>.
-                        College Board. For exceptional standing on all 7 exams written.
-                        Certificate & Honours standing for receiving a perfect score on 6 of the 7 AP examinations written.
-                    </h4>
-                    <div align="center">
-                        <table>
-                            <thead> <tr><th>Examination:</th><th>Score:</th></tr></thead>
-                            <tbody>
-                                <tr>
-                                    <td>AP Calculus BC</td>
-                                    <td>5/5</td>
-                                </tr>
-                                <tr>
-                                    <td>AP Calculus AB</td>
-                                    <td>5/5</td>
-                                </tr>
-                                <tr>
-                                    <td>AP Chemistry</td>
-                                    <td>5/5</td>
-                                </tr>
-                                <tr>
-                                    <td>AP Physics B (Non-Calculus) </td>
-                                    <td>5/5</td>
-                                </tr>
-                                <tr>
-                                    <td>AP Physics C: Mechanics (Calculus)</td>
-                                    <td>5/5</td>
-                                </tr>
-                                <tr>
-                                    <td>AP Physics C: Electricity and Magnetism (Calculus) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </td>
-                                    <td>5/5</td>
-                                </tr>
-                                <tr>
-                                    <td>AP Microeconomics</td>
-                                    <td>4/5</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div></div>
-                    <div class='wow slideInLeft'><h3><a id="Awards" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link">
-                    </span></a>President's Scholarship of Distinction</h3></div>
-                    <div class='wow bounceInRight'> <h4>
-                        <a href="https://uwaterloo.ca/find-out-more/financing/scholarships/presidents-scholarships">University of Waterloo President's Scholarship of Distinction</a>.
-                        "If you meet the following conditions, you’ll be awarded a University of Waterloo President’s Scholarship of Distinction valued at
-                        $2,000 and a $1,500 International Experience Award and/or a $1,500 Research Award.
-                        Your early May admission average, including required courses, must be 95% or higher for the
-                        program for which you’ve received and accepted an Offer of Admission.
-                        You must accept your Offer of Admission by the date specified on the offer.
-                        You must be enrolled at Waterloo in full-time studies (minimum 2.5 course units) for the entire fall term."
-                    </h4></div>
-
-                    <div class='wow slideInLeft'><h3>
-                        <a id="Awards" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link">
-                        </span></a>McGill University Major Entrance Scholarship</h3></div>
-                        <div class='wow bounceInRight'><h4>
-                            <a href="https://www.mcgill.ca/studentaid/scholarships-aid/future-undergrads/entrance-scholarships#oneyear">Major Entrance Undergraduate Scholarship</a>.
-                            Valued $20,000 in total,
-                            Second Highest Major Scholarship offered at McGill University, in all faculties.
-                            "Major entrance scholarships (Renewable), offered by the Scholarships and Student Aid Office,
-                            are awarded on the basis of academic achievement and outstanding leadership in school or community activities.
-                            Please note that "leadership" constitutes more than simple participation in extracurricular activities.
-                            A separate application is required soon after submission of your application for admission.
-                            To determine if you qualify, please review the minimum academic requirements.
-                            Students who apply for, but do not receive a major scholarship will automatically be considered for a one-year entrance scholarship and, if eligible, for the additional award.
-                            "
-                        </h4></div>
-
-                        <div class='wow slideInLeft'><h3>
-                            <a id="Awards" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link">
-                            </span></a>North Vancouver Dogwood Scholarship
-                        </h3></div>
-                        <div class='wow bounceInRight'><h4>
-                            <a href="http://www.fisabc.ca/sites/default/files/DDAA%20Application%20Metro%20Vancouver%202014.pdf">
-                                North Vancouver School District Dogwood Scholarship</a>.
-                                Distributed by the
-                                <a href="http://www2.gov.bc.ca/gov/topic.page?id=D312007CD1DE48028CCAE5F1C9C8CA03">Government of British Columbia</a>,
-                                District/Authority Award for outstanding graduating students. "Definition of Dogwood District/Authority Awards:
-                                The purpose of the Dogwood District/Authority Awards is to acknowledge superior achievement in the following specialty areas:"
-                            </h4>
-                            <div align="center">
-                                <table>
-                                    <tbody>
-                                        <tr>
-                                            <td  align="center">Fine Arts / Music</td>
-                                        </tr>
-                                        <tr>
-                                            <td  align="center">Applied Skills</td>
-                                        </tr>
-                                        <tr>
-                                            <td  align="center">Physical Activity and Sports</td>
-                                        </tr>
-                                        <tr>
-                                            <td  align="center">Second Languages</td>
-                                        </tr>
-                                        <tr>
-                                            <td  align="center">Community / Volunteer Service</td>
-                                        </tr>
-                                        <tr>
-                                            <td  align="center">Technical Training</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div></div>
-                            <div class='wow slideInLeft'><h3>
-                                <a id="Awards" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link">
-                                </span></a>Passport to Education Scholarship
-                            </h3></div>
-                            <div class='wow bounceInRight'><h4>
-                                <a href="http://www2.gov.bc.ca/gov/DownloadAsset?assetId=D26B866A5DAB4518B32EE6CABF8C6CF8&filename=passport_policy_procedures201314.pdf">British Columbia Passport to Education Scholarship - Full Stamp</a>.
-                                "A Passport to Education is a small booklet that contains stamps awarded to students for achievement in academic and non-academic areas.
-                                Students can use their passport award towards the cost of their post-secondary education or job-training program.
-
-                                The Passport to Education Program recognizes and rewards student achievement in a broad range of academic and non-academic areas according to criteria and guidelines set out by the Ministry of Education. Passport scholarships are used to assist students with tuition towards their post-secondary education and/or job training programs. "
-                            </h4></div>
-
-                            <div class='wow slideInLeft'><h3>
-                                <a id="Awards" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link">
-                                </span></a>West Vancouver Art & Music Scholarship</h3></div>
-                                <div class='wow bounceInRight'><h4>
-                                    <a href="http://www.westvanfoundation.com/fund-info/our-funds">West Vancouver Art & Music Scholarship</a>. Provided based upon well-roundedness in artistic and musical excellence. Rewarded upon recommendation of musical instructors and mentors.</h4></div>
-
-                                    <div class='wow slideInLeft'><h3>
-                                        <a id="Awards" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link">
-                                        </span></a>Civic Youth Enhancement Award</h3></div>
-                                        <div class='wow bounceInRight'><h4>Link to <a href="http://www.dnv.org/article.asp?c=528"> DNV Scholarship</a>. District of North Vancouver
-                                            <a href="http://www.dnv.org/upload/pcdocsdocuments/26_2801_.pdf"> Civic Youth Enhancement Award</a>.
-                                            <a href="http://www.dnv.org/upload/pcdocsdocuments/26_lt01_.pdf">Mayor's Speaking Notes. </a>Provided based upon well-roundedness in artistic and musical excellence. "The Civic Youth Awards Program recognizes District youth between 10 and 24 for noteworthy achievements and contributions to the community. This award recognizes youth who made positive contributions to the community on a voluntary basis, such as serving on a committee, or other volunteer work with organizations and groups."
-                                        </h4></div>
-
-                                        <div class='wow slideInLeft'><h3>
-                                            <a id="Awards" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link">
-                                            </span></a>Vancouver Korean-Canadian Foundation Scholarship 2015-2016</h3>
-                                        </div>
-                                        <div class='wow bounceInRight'><h4><a href="http://www.vkcsf.org/scholarshiplist.php"> Vancouver Korean-Canadian Scholarship Foundation: </a>
-                                            Been selected as a <a href="newscube1.png">recipient </a> of the 2015-2016 Vancouver Korean-Canadian Scholarship Foundation Award, on July 13th, 2015 (Monday).
-                                            "The Vancouver Korean-Canadian Scholarship Foundation (VKCSF) is a charitable organization dedicated to providing <a href="newscube2.png">scholarships</a> to qualified students with Korean heritage or to those pursuing academic fields related to Korea. VKCSF encourages students to contribute to the well-being and prosperity of the Korean-Canadian community and the wider Canadian society." Vancouver Korean Press News: <a href="http://www.vanchosun.com/news/main/frame.php?main=1&boardId=5&bdId=54715&sbdtype=">VanChosun</a></h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </aside>
-                            <section >
-                                <div class="container" id="reach">
-                                    <div class='wow slideInLeft text-center' ><h3>
-                                        <a id="Awards" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link">
-                                        </span></a>North Shore Hospital Auxiliary - Lynn Valley Senior Care Centre </h3>
-                                    </div>
-                                    <div class='wow bounceInRight text-center'><h4>Sept 2012 - Sept 2014: Health Care Cadet / Musical Entertainer / Feeding Assistance - Volunteered <a target='_blank'href="http://www.lynnvalleycare.com/services/">as Health Care Cadet</a>: Musical Entertainment, Performance of Concerts (Classical Piano), Dinner Feeding Assistance, Manor Security for Seniors with Disability. Monitored incoming patients. Recorded the number of guests incoming and leaving on record. Assisted seniors both mentally and physically, including assistance during dinner time.</h4>
-                                    </div>
-                                    <div class="row"><br><br>
-                                        <div class="col-lg-8 col-lg-offset-2 text-center">
-                                            <div class='wow zoomInRight'><h2 class="section-heading">Reach Me!</h2></div>
-                                            <hr class="primary">
-                                            <pre><code>&lt;Aloha!&gt; Feel free to contact me for anything! Message me also for my resume/C.V. &lt;/Adios!&gt;</code></pre>
-                                            <pre><code><h4>Shoot me encrypted messages!</h4><ol><li><a itemprop="url" href="https://keybase.io/encrypt" target="_blank">Click</a>.</li><li>Input your message within the "Message to Encrypt" box.</li><li>Under the "Recipient" label, type in "Andrew Choi" then select (achoi).</li><li>Encrypt the message, and <a href="mailto:andrewchoi5@hotmail.com">email</a> me the "Secret message" by copying & pasting.</li><li>Done! Once I decrypt your message, I will get back to you! =)</li></ol></code></pre>
-                                            <!-- <script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/a24choi" data-format="inline"></script> -->
-
-                                        </div>
-
-<br>
-                                        <div class="col-lg-12 text-center">
-                                            <a href="mailto:andrewchoi5@hotmail.com?subject=[andrewchoi.me]&body=Hello Andrew, %0D%0A %0D%0A %0D%0A• Name: %0D%0A%0D%0A• Topic: %0D%0A%0D%0A• Your Comments/Concerns:"><i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i></a><br><br>
-                                        </div>
-                                        <div align="center" class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="a24choi"><a class="LI-simple-link" href='https://ca.linkedin.com/in/a24choi?trk=profile-badge'>Andrew Choi</a></div>
-                                        <br>
-                                        <div align="center">
-                                            <audio controls="controls" loop="loop">
-                                                <!-- hidden="true"  autoplay="autoplay"-->
-                                                <source src="kick.mp3" type="audio/mpeg">
-                                            </audio>
-
-                                            <audio controls="controls" loop="loop">
-                                                    <source src="prokofiev3.mp3" type="audio/mpeg">
-                                            </audio>
-                                                </div>
-                                                <br>
-                                                <div class='wow rotateInUpRight'>
-                                                    <div class="col-lg-12 text-center">
-                                                        <i data-wow-delay=".1s"></i>
-                                                        <h5><a href="/" target="_blank">AndrewChoi.me</a>
-                                                            &copy; 
-                                                            <script>new Date().getFullYear()>2010&&document.write("  "+new Date().getFullYear());</script>
-                                                        </h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </section>
-                                </body>
-                                <script src="jquery-2.0.3.min.js"></script> <!-- Always put jquery.js BEFORE -->
-                                <script src="js/jquery.js"></script>
-                                <script src="js/bootstrap.min.js"></script>
-                                <script src="js/jquery.easing.min.js"></script>
-                                <script src="js/jquery.fittext.js"></script>
-                                <script src="js/wow.min.js"></script>
-                                <script src="js/creative.js"></script>
-                                <!-- <script src="js/ernestmain.js"></script> -->
-                                <script src="js/typed.js"></script>
-                                <script>
-                                    // $(function() {
-                                    //     $(".type").typed({
-                                    //         strings: ["a24choi@uwaterloo.ca ~$ git internship status <br> <br> BlackBerry | Service Tools Developer <br> IBM | Android Developer <br> IBM | iOS Developer"],
-                                    //         typeSpeed: 0,
-                                    //         startDelay: 1000,
-                                    //         // backSpeed: 50,
-                                    //     });
-                                    // });
-                                    // setTimeout(function(){
-                                    //     document.getElementById('mainNav').style.display = "";
-                                    // }, 9000);//14400
-
-                                </script>
-
-                                <script type="text/javascript" src="jquery.simple-text-rotator.js"></script>
-                                <script>
-                                $(document).ready(function(){
-                                    $(".demo1 .rotate").textrotator({
-                                        animation: "fade",
-                                        speed: 1000
-                                    });
-                                    $(".demo2 .rotate").textrotator({
-                                        animation: "flip",
-                                        speed: 1250
-                                    });
-                                    $(".demo3 .rotate").textrotator({
-                                        animation: "flipCube",
-                                        speed: 1500
-                                    });
-                                    $(".demo4 .rotate").textrotator({
-                                        animation: "flipUp",
-                                        speed: 1750
-                                    });
-                                    $(".demo5 .rotate").textrotator({
-                                        animation: "spin",
-                                        speed: 2000
-                                    });
-                                });
-                                </script>
-
-                                <script src="js/wow.min.js"></script>
-                                <script>
-                                    new WOW().init();
-                                </script>
-                                <script> //for background slideShow!
-                                    // document.getElementsByTagName('head').style.header.backgroundImage= 'url(../img/1.jpg)';
-                                    var start = 2;
-                                    var cnt = start;
-                                    var numImages = 3;
-                                </script>
-                                <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-                                <script type="text/javascript" src="//platform.linkedin.com/in.js">
-                                  api_key:   75gb4gnvoafbdo
-                                  onLoad:    OnLinkedInFrameworkLoad
-                                  authorize: true
-                                  scope: r_basicprofile r_emailaddress w_share rw_company_admin
-                                </script>
-                                <script>
-                                  function OnLinkedInFrameworkLoad() {
-                                    IN.Event.on(IN, "auth", OnLinkedInAuth);
-                                  }
-                                  function OnLinkedInAuth() {
-                                    IN.API.Profile("me").fields("firstName", "lastName", "industry", "location:(name)", "picture-url", "headline", "summary", "num-connections", "public-profile-url", "distance", "positions", "email-address", "educations", "date-of-birth").result(ShowProfileData);
-                                  }
-                                  function ShowProfileData(profiles) {
-                                    var member = profiles.values[0];
-                                    // var id = member.id;
-                                    var id = member.emailAddress;
-                                    var id = member.summary;
-                                    var id = member.positions.values[0].summary;
-                                    var firstName = member.firstName;
-                                    var lastName = member.lastName;
-                                    var photo = member.pictureUrl;
-                                    var headline = member.headline;
-                                    // document.getElementById("showProfile").innerHTML = headline + "<br>"+ id + "<br>"+ firstName +"<br>"+ lastName;
-                                 }
-                              </script>
-                              <script>
-                              var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
-                              var isSafari = /Safari/.test(navigator.userAgent) && /Apple Computer/.test(navigator.vendor);
-                              // var isFirefox = /Firefox/.test(navigator.userAgent) && /Apple Computer/.test(navigator.vendor);
-
-                              if (!isSafari){
-                                document.getElementById('emptyPortfolioBox').style.display = "";
-                              }
-                              </script>
+    <script src="javascripts/scale.fix.js"></script>
+  </body>
 </html>
