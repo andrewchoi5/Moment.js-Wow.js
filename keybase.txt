@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/achoi
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://andrewchoi.me
+  * I am achoi (https://keybase.io/achoi) on keybase.
+  * I have a public key with fingerprint 518F 7683 76CB 545E 1A2E  C84A 05B2 5C22 C154 DD67
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01014a737e67f8a9b7fd9ffcb5e3c404ef80bc940880a633bf90a1dc48bada57e9040a",
+            "fingerprint": "518f768376cb545e1a2ec84a05b25c22c154dd67",
+            "host": "keybase.io",
+            "key_id": "05b25c22c154dd67",
+            "kid": "01014a737e67f8a9b7fd9ffcb5e3c404ef80bc940880a633bf90a1dc48bada57e9040a",
+            "uid": "30f7221cbda61dddeb6ca18d5c9cbe19",
+            "username": "achoi"
+        },
+        "revoke": {
+            "sig_ids": [
+                "d80f540850595445a981b5e3601e115b172a57192383cad25b076a2ab51ade550f"
+            ]
+        },
+        "service": {
+            "hostname": "andrewchoi.me",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1485059811,
+    "expire_in": 157680000,
+    "prev": "93ef84643de691b9c9cca1db3a56b4dfef54735380fe14ed254fbc32d00baf0d",
+    "seqno": 11,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.62
+Comment: https://keybase.io/crypto
+
+yMJeAnicrZJZaNRAHMa31latB+JZ90FhKIJaZSaZybEvihciqCAIXmWZK9vYdrMm
+aWupFyhWFLWlVpRthSoKCkIraL2q61EsVgSRVR8EFRERRajgAeIxqfrkq3kJk3z/
+3/fNN3NnbGGspKDpwf7Ze84tKSoYuDlYG1u723jVCJgnGkCiEVTJoZesFjIIk1Wu
+AAkAEUSYmropDdOxqM1MR9iOwxmROscQS8eCjNsYWhakhq4zx4YUCY4tRgUlprQh
+hhSUA8dNp6Sf8d10qLAEWY5pWLppKBImElFNcgtTSJhGuKZxRLAQhqkGK70gmlDh
+GA3kPNdT39Qi+Tvev/r/nLt2CKdDx9Q0xJmgBhJCSGZwiixBuM2ZRHYkDKSfpjVS
+qSmv9FywrRz4ss6rklGpgZtSiQOQ2ACEBR2ijAkkNsGYUNtCUSwDIokQYcjUVABk
+a7qlcyo0wqBpUI0ygqiQhEAHVCi2sqtz+RA8quivdVr4sj7yn6fW5SDje6HHvWr1
+qzIMM4koVdiQiaT1kiX/QJLMTQt1QGqgTvqB66VBAiklD92IivBQWAuhciC3ZFxf
+Jt1IQdQRQvVENrJOIW1d9YoNrAtp2IjZqh1Vk2A6JQbDwpFq46ZOdNWARFiqvWGH
+cV0TEDLqQAGibW1Oe4qtrEKaUkzVXJqGtb4E227lNg6PFZTEiouGRTc3VjJq/N/7
+zAdG/AzLPmx61PWs5tabEVcv3Yu1NV2ZvtJvG/PNju/KT6u4c6a94lRHduaRt6W9
+CwbeXW6aRTqPTUb5daWPTjb39hYd7DjSfr/Pz3bfOL3g9nPPbR43J59b03+0ekv7
+i5FPFk4dteLa65aP8e6+J4WfwaeVX/q/D/YN9sz3DnV03X049t3ScEd+ItpXXPHq
+ytPi7p6ab9kXl8tyVaWti7zOeCoxI8hfyBbC0etOLX++bPul6y3rV9my4fDWyfHV
+z0rKtr/s6Nlx/Otbs18u2pmtZF8az7e15MbMCDa/+ZzPzW0/1jrl+NwT8dHvJxxo
+aU3+XHz2Yv2Z/QWHTxfea0796PS8vf2P70/q+gVPymOc
+=m4LV
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/achoi
+
+==================================================================
