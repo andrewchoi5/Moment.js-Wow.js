@@ -9,7 +9,7 @@ Götze is a product of Dortmund's youth academy, first entering the club as an e
 
 
 Götze with Borussia Dortmund in 2013
-He played in the 2011 German Super Cup' losing to Schalke 04.[12] In January 2012, Götze was diagnosed with a hip injury; cartilage in Götze's hip had inflamed under stress.[13]
+He played in the 2011 German Super Cup' losing to Schalke 04.[12] In January 2012, Götze was diagnosed with a hip injury; cartilage in Götze's hip had inflamed under stress.
 
 On 27 March 2012, Götze signed a new contract with Borussia Dortmund, keeping him at Dortmund until 2016. His contract, however, contained a release clause from the club, triggered by a fixed transfer fee of at least €37 million.[14] Götze spoke about his contract extension, saying, "Everyone knows how comfortable I feel in Dortmund. The club are far from finished with their recent resurgence. And I want to be part of this development."[15]
 
