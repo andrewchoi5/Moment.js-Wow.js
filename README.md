@@ -5,11 +5,11 @@
 Built with: Moment.js, Bootstrap,  Personal Webpage
 
 Early career
-Götze is a product of Dortmund's youth academy, first entering the club as an eight-year-old.[7] He made his Bundesliga debut on 21 November 2009 in a scoreless draw against Mainz 05, coming on as a substitute for Jakub Błaszczykowski in the 88th minute. During the winter break of the 2009–10 Bundesliga season, Dortmund manager Jürgen Klopp promoted Götze to the first team. He finished the 2009–10 season with five appearances.[9] Götze took his chance and was an important player in Dortmund's Bundesliga-winning squad of the 2010–11 season. He finished 2010–11 season with eight goals[10] in 41 appearances.[11]
+Götze is a product of Dortmund's youth academy, first entering the club as an eight-year-old. He made his Bundesliga debut on 21 November 2009 in a scoreless draw against Mainz 05, coming on as a substitute for Jakub Błaszczykowski in the 88th minute. During the winter break of the 2009–10 Bundesliga season, Dortmund manager Jürgen Klopp promoted Götze to the first team. He finished the 2009–10 season with five appearances.[9] Götze took his chance and was an important player in Dortmund's Bundesliga-winning squad of the 2010–11 season. He finished 2010–11 season with eight goals[10] in 41 appearances.
 
 
 Götze with Borussia Dortmund in 2013
-He played in the 2011 German Super Cup' losing to Schalke 04.[12] In January 2012, Götze was diagnosed with a hip injury; cartilage in Götze's hip had inflamed under stress.
+He played in the 2011 German Super Cup' losing to Schalke 04. In January 2012, Götze was diagnosed with a hip injury; cartilage in Götze's hip had inflamed under stress.
 
 On 27 March 2012, Götze signed a new contract with Borussia Dortmund, keeping him at Dortmund until 2016. His contract, however, contained a release clause from the club, triggered by a fixed transfer fee of at least €37 million.[14] Götze spoke about his contract extension, saying, "Everyone knows how comfortable I feel in Dortmund. The club are far from finished with their recent resurgence. And I want to be part of this development."[15]
 
