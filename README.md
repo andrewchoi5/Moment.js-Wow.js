@@ -11,14 +11,14 @@ Götze is a product of Dortmund's youth academy, first entering the club as an e
 Götze with Borussia Dortmund in 2013
 He played in the 2011 German Super Cup' losing to Schalke 04. In January 2012, Götze was diagnosed with a hip injury; cartilage in Götze's hip had inflamed under stress.
 
-On 27 March 2012, Götze signed a new contract with Borussia Dortmund, keeping him at Dortmund until 2016. His contract, however, contained a release clause from the club, triggered by a fixed transfer fee of at least €37 million.[14] Götze spoke about his contract extension, saying, "Everyone knows how comfortable I feel in Dortmund. The club are far from finished with their recent resurgence. And I want to be part of this development."[15]
+On 27 March 2012, Götze signed a new contract with Borussia Dortmund, keeping him at Dortmund until 2016. His contract, however, contained a release clause from the club, triggered by a fixed transfer fee of at least €37 million.[14] Götze spoke about his contract extension, saying, "Everyone knows how comfortable I feel in Dortmund. The club are far from finished with their recent resurgence. And I want to be part of this development."
 
 In April 2012, Götze made the squad for the first time since his hip injury but was an unused substitute against rivals Schalke 04. He played his first game since his hip injury when he came on as a substitute against Borussia Mönchengladbach.
 
-Götze won the Bundesliga with Borussia Dortmund in 2012 as Dortmund set a Bundesliga record by earning the most points in a season with 81, a record later broken by Bayern Munich in 2012–13. Götze also won the DFB-Pokal with Dortmund (5–2) against rivals Bayern Munich in 2012. Götze finished the season with seven goals in all competitions.[12][16]
+Götze won the Bundesliga with Borussia Dortmund in 2012 as Dortmund set a Bundesliga record by earning the most points in a season with 81, a record later broken by Bayern Munich in 2012–13. Götze also won the DFB-Pokal with Dortmund (5–2) against rivals Bayern Munich in 2012. Götze finished the season with seven goals in all competitions.
 
 2012–13 season
-Götze kicked off his season by losing the 2012 German Super Cup.[17] On the first day of the 2012–13 season, he came on as a substitute and scored the winner against Werder Bremen in a 2–1 win for Dortmund. On 19 December, he netted a hat-trick, powering Dortmund to a 5–1 defeat of Hannover 96 in the third round of the DFB-Pokal.[18]
+Götze kicked off his season by losing the 2012 German Super Cup.[17] On the first day of the 2012–13 season, he came on as a substitute and scored the winner against Werder Bremen in a 2–1 win for Dortmund. On 19 December, he netted a hat-trick, powering Dortmund to a 5–1 defeat of Hannover 96 in the third round of the DFB-Pokal.
 
 At Barcelona Lionel Messi, Andrés Iniesta and Xavi are building a triangle, but as a classic duo there is nobody better than the prolific Reus and Götze. How they split Ajax in the Champions League impressed me. I hope they do not succeed in Munich.
 Former German captain and head coach Franz Beckenbauer on Reus and Götze partnership, December 2012[19]
