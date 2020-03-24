@@ -7,7 +7,6 @@ Built with: Moment.js, Bootstrap,  Personal Webpage
 Early career
 Götze is a product of Dortmund's youth academy, first entering the club as an eight-year-old. He made his Bundesliga debut on 21 November 2009 in a scoreless draw against Mainz 05, coming on as a substitute for Jakub Błaszczykowski in the 88th minute. During the winter break of the 2009–10 Bundesliga season, Dortmund manager Jürgen Klopp promoted Götze to the first team. He finished the 2009–10 season with five appearances. Götze took his chance and was an important player in Dortmund's Bundesliga-winning squad of the 2010–11 season. He finished 2010–11 season with eight goals in 41 appearances.
 
-
 Götze with Borussia Dortmund in 2013
 He played in the 2011 German Super Cup' losing to Schalke 04. In January 2012, Götze was diagnosed with a hip injury; cartilage in Götze's hip had inflamed under stress.
 
